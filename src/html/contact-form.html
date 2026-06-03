@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <link rel="stylesheet" href="../output.css">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<body class="bg-blue-100">
+
+    <div class="bg-white max-w-3xl mx-auto my-32 p-10 rounded-2xl">
+        <p class="text-2xl font-bold mb-8">Contact Us</p>
+
+        <form action="" class="space-y-6">
+            <div class="flex gap-5">
+                <div class="w-1/2">
+                    <label for="">First Name *</label>
+                    <input type="text" class="mt-2 border border-blue-300 w-full h-10 rounded-md pl-2 outline-blue-400" required>
+                </div>
+                <div class="w-1/2">
+                    <label for="">Last Name *</label>
+                    <input type="text" class="mt-2 border border-blue-300 w-full h-10 rounded-md pl-2 outline-blue-400" required>
+                </div>
+            </div>
+
+            <!-- Email Address -->
+            <div>
+                <label for="">Email Address *</label>
+                <input type="text" class="mt-2 border border-blue-300 w-full h-10 rounded-md pl-2 outline-blue-400" required>
+            </div>
+
+            <!-- Query Type -->
+            <div>
+                <p>Query Type</p>
+                <div class="flex gap-5 mt-2">
+                    <div class="border border-blue-200 h-10 w-1/2 rounded-md flex items-center gap-2 pl-4" required>
+                        <input type="radio" name="query">
+                        <label for="">Genral Enquiry</label>
+                    </div>
+                    <div class="border border-blue-200 h-10 w-1/2 rounded-md flex items-center gap-2 pl-4" required>
+                        <input type="radio" name="query">
+                        <label for="">Genral Enquiry</label>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Message -->
+            <div>
+                <p>Message</p>
+                <textarea name="" id="" rows="4"
+                    class="mt-2 w-full border border-blue-200 rounded-md p-2 outline-blue-400" required></textarea>
+            </div>
+
+            <!-- Tearms -->
+            <div class="flex items-center gap-5">
+                <input type="checkbox">
+                <label for="" class="text-sm">I constent to being contacted by the team *</label>
+            </div>
+
+            <!-- Submit -->
+            <!-- <button 
+                class="
+                h-10 bg-blue-800
+                 hover:bg-transparent 
+                 hover:border hover:border-blue-400
+                hover:text-black
+                w-full rounded-md
+                text-white
+                font-semibold 
+                transition 
+                duration-300 
+                ease-in-out">
+                Submit
+            </button> -->
+            <input type="submit" class="
+                h-10 
+                bg-linear-to-br
+                from-blue-800
+                via-blue-500
+                to-blue-800
+                 hover:bg-transparent 
+                 hover:border hover:border-blue-400
+                hover:text-black
+                w-full rounded-md
+                text-white
+                font-semibold 
+                transition 
+                duration-300 
+                ease-in-out">
+
+        </form>
+    </div>
+
+</body>
+
+</html>
